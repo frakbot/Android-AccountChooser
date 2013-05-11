@@ -4,22 +4,22 @@
 
 **Account Chooser** for Android, backported from JellyBean.
 
-**`Android-AccountChooser`** is a library that enables you to use the same method as `AccountManager#newChooseAccountIntent` (see the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html#newChooseAccountIntent(android.accounts.Account, java.util.ArrayList<android.accounts.Account>, java.lang.String[], boolean, java.lang.String, java.lang.String, java.lang.String[], android.os.Bundle)) introduced in API 14, from API Level 8 forward.
+`Android-AccountChooser` is a library that enables you to use the same method as `AccountManager#newChooseAccountIntent` (see the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html) introduced in API 14, from API Level 8 forward.
 
 ## Authors
 
-**Francesco Pontillo** (<macgyver@italiansubs.net>) and **Sebastiano Poggi** (<rock3r@italiansubs.net>).
+**Francesco Pontillo** and **Sebastiano Poggi**.
 
 ## How to use
 
-At first, you have to include the given project as a library reference in your application project.
+First, you have to include the given project as a library reference in your application project.
 
 Then, include the following Activities in your `AndroidManifest.xml`:
 
 ```xml
 	<activity android:name="net.frakbot.accounts.chooser.ChooseTypeAndAccountActivity" />
-        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountActivity" />
-        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountTypeActivity" />
+	<activity android:name="net.frakbot.accounts.chooser.ChooseAccountActivity" />
+	<activity android:name="net.frakbot.accounts.chooser.ChooseAccountTypeActivity" />
 ```
 
 In the end call, instead of `AccountManager#newChooseAccountIntent`:
@@ -36,7 +36,7 @@ AccountChooser.newChooseAccountIntent(
 - the standard device implementation, if `Build.VERSION >= 14`
 - the backported implementation from the API Level 17
 
-See the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html#newChooseAccountIntent(android.accounts.Account, java.util.ArrayList<android.accounts.Account>, java.lang.String[], boolean, java.lang.String, java.lang.String, java.lang.String[], android.os.Bundle)) for more help, as the behaviour is just the same.
+See the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html) for more help, as the behaviour is just the same.
 
 ## License
 
