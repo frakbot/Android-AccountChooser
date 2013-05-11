@@ -1,4 +1,4 @@
 Android-AccountChooser
 ======================
 
-Account chosser for Android, backported from JellyBean.
+Account chooser for Android, backported from JellyBean.
