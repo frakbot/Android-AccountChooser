@@ -10,10 +10,13 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name">
-        
-        <activity android:name="net.frakbot.accounts.chooser.ChooseTypeAndAccountActivity" android:exported="true"/>
-        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountTypeActivity" android:exported="true"/>
-        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountActivity" android:exported="true"/>
+
+        <activity android:name="net.frakbot.accounts.chooser.ChooseTypeAndAccountActivity"
+                  android:theme="@style/Theme.AccountChooser.Dialog"/>
+        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountTypeActivity"
+                  android:theme="@style/Theme.AccountChooser.Dialog"/>
+        <activity android:name="net.frakbot.accounts.chooser.ChooseAccountActivity"
+                  android:theme="@style/Theme.AccountChooser.Dialog"/>
         
     </application>
 
