@@ -4,7 +4,7 @@
 
 **Account Chooser** for Android, backported from JellyBean.
 
-`Android-AccountChooser` is a library that enables you to use the same method as `AccountManager#newChooseAccountIntent` (see the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html) introduced in API 14, from API Level 8 forward.
+`Android-AccountChooser` is a library that enables you to use the same method as `AccountManager#newChooseAccountIntent` (see the [official documentation](http://developer.android.com/reference/android/accounts/AccountManager.html)) introduced in API 14, from API Level 8 forward.
 
 ## Authors
 
