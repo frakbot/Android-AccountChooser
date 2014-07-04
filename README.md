@@ -28,7 +28,7 @@ In the end call, instead of `AccountManager#newChooseAccountIntent`:
 AccountChooser.newChooseAccountIntent(
 	selectedAccount, allowableAccounts, allowableAccountTypes,
 	alwaysPromptForAccount, descriptionOverrideText, addAccountAuthTokenType,
-	addAccountRequiredFeatures, addAccountOptions);
+	addAccountRequiredFeatures, addAccountOptions, context);
 ```
 
 `AccountChooser` will then automatically detect the `Build.VERSION` number and use the most appropriate implementation, choosing from:
